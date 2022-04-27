@@ -5,7 +5,7 @@
     color: white;
    }
    body {
-    background-image: url("../images/8.jpeg");
+    background-image: url("8.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
    }
@@ -39,7 +39,7 @@
     max-width: 60vw;
     max-height: 25vh;
     margin: auto;
-    background-image: url("../images/molecule.png");
+    background-image: url("molecule.png");
     background-repeat: no-repeat;
     background-size: 100%;
     
