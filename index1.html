@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="calc.js"></script>
+    <title>Molarity Calculator</title>
+    <link rel="stylesheet" href="style-calc.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- <img src="molecule.png" alt="molecule" width="350px"> -->
+    <header>
+        <div id="molecule"></div>
+        Molarity Calculator
+    </header>
+    <style>
+        .CHE {
+            background-color: white;
+            border: 2px solid black;
+            color: black;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+        }
+    </style>
+   
+    <div id="container">
+        <input type="text" id="formula" onkeyup="init()" autofocus
+               autocomplete="off" placeholder="Write your formula here..." size="40">
+        <input type="text" id="quantity" onkeyup="init()" autofocus
+               autocomplete="off" placeholder="Enter quantity in grams for formula..."
+               size="40">
+        <input type="text" id="solution" onkeyup="init()" autofocus
+               autocomplete="off" placeholder="Enter quantity in mL for a solution..."
+               size="40">
+        <div id="result"></div>
+    </div>
+</body>
+</html>
