@@ -1,0 +1,71 @@
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    color: white;
+   }
+   body {
+    background-image: url("../images/8.jpeg");
+   }
+   nav {
+    background: #FFFFFF;
+    position: sticky;
+    text-align: center;
+   }
+   nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .75em;
+   }
+   nav a:hover {
+    background-color: #FFFFFF;
+   }
+   header {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 2.4em;
+    font-weight: 100;
+    text-align: center;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 1em;
+   }
+   #molecule {
+    width: 7em;
+    height: 5em;
+    max-width: 60vw;
+    max-height: 25vh;
+    margin: auto;
+    background-image: url("molecule.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+#container {
+ text-align: center;
+}
+input {
+ font-size: 1.5em;
+ max-width: 90vw;
+ border: 0;
+ background-color: inherit;
+ border-bottom: 3px solid white;
+ margin: 2em 0;
+ text-align: center;
+}
+@keyframes anim {
+ from {
+/* transform: translateY(0); */
+ filter: none;
+ }
+ to {
+/* transform: translateY(-.3em); */
+ filter: opacity(.8);
+ }
+}   
